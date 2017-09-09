@@ -1,8 +1,5 @@
-# Fetch Project
-ACA Week 9 Fetch Project
+# React Fetch API Project
 
-To setup: npm install
+Initiates fetch from NASA Image and Video Library
 
-To run: npm run build
-
-View the project at localhost:8080
+Accepts user input for dynamic search
