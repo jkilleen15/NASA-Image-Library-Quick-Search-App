@@ -37,7 +37,7 @@ export default class Fetch extends Component {
   });
   }
 
-  // readers header and search component
+  // renders header and search component
 
   render () {
     console.log(this.state.pics);
