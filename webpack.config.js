@@ -1,5 +1,6 @@
 module.exports = {
   entry: './script.jsx',
+  //entry: './script.jsx',
   output: {
     filename: 'bundle.js'
   },
@@ -19,6 +20,6 @@ module.exports = {
         exclude: /node_modules/,
         loader: 'style-loader!css-loader'
       }
-    ],
+    ]
   }
 };
