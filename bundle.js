@@ -22403,8 +22403,6 @@ const styles = __webpack_require__(185);
 
 const PicList = props => {
   let results = props.data;
-  // let url = 'pic.links[0].href || 0';
-  // let title = 'pic.data[0].title || 0';
   let pics = results.map(pic => __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(Pic, {
     url: pic.links[0].href,
     key: pic.data[0].nasa_id,

@@ -7,8 +7,6 @@ import SearchForm from '../Search/SearchForm.jsx';
 
 const PicList = props => {
   let results = props.data;
-  // let url = 'pic.links[0].href || 0';
-  // let title = 'pic.data[0].title || 0';
   let pics = results.map(pic =>
     <Pic
       url={pic.links[0].href}
