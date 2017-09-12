@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 
 export default class SearchForm extends Component {
+
+    // Define data points from 'pics' array (fetch response data) using map
+    // Return list of custom list items from 'Pic' component below
+
   constructor (props) {
     super(props);
     this.state = {searchText: ''};
