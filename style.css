@@ -1,6 +1,4 @@
-/* =================================
-  Element Styles
-==================================== */
+/* HTML ELEMENT STYLES */
 
 * {
   box-sizing: border-box;
@@ -54,9 +52,7 @@ button {
 }
 
 
-/* =================================
-  Page Components
-==================================== */
+/* PAGE COMPONENT STYLES */
 
 .main-title {
   font-size: 1.4em;
@@ -120,9 +116,7 @@ button {
   min-width: 100%;
 }
 
-/* =================================
-  Layout Styles
-==================================== */
+/* LAYOUT STYLES */
 
 .inner,
 .main-content {
@@ -158,9 +152,7 @@ button {
   width: 1px;
 }
 
-/* =================================
-  Media Queries
-==================================== */
+/* MEDIA QUERIES */
 
 @media (min-width: 0) and (max-width: 549px) {
   .pic-list li {
@@ -213,34 +205,3 @@ button {
     clear: left;
   }
 }
-
-/* =================================
-  Tests & Effects
-==================================== */
-
-
-img.hovertext {
-    position: relative;
-    width: 500px;
-    text-decoration: none !important;
-    text-align: center;
-  }
-  img.hovertext::after {
-    content: attr(title);
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    padding: 0.5em 20px;
-    width: 460px;
-    background: rgba(0,0,0,0.8);
-    text-decoration: none !important;
-    color: #fff;
-    opacity: 0;
-    -webkit-transition: 0.5s;
-    -moz-transition: 0.5s;
-    -o-transition: 0.5s;
-    -ms-transition: 0.5s;
-  }
-  img.hovertext:hover::after, img.hovertext:focus::after {
-    opacity: 1.0;
-  }

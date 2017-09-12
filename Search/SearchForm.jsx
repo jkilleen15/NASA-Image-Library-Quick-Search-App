@@ -32,7 +32,7 @@ export default class SearchForm extends Component {
           ref={(input) => this.query = input}
           title='Enter a topic i.e. stars, sun'
           placeholder='i.e. black hole' />
-        <button type='submit' id='search' className='search-button'><i className='material-icons icn-search'>GO!</i></button>
+        <button type='submit' id='search' className='search-button'><i>GO!</i></button>
       </form>
     );
   }
