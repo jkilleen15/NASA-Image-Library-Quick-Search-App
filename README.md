@@ -1,5 +1,9 @@
 # React Fetch API Project
 
-Initiates fetch from NASA Image and Video Library
+API - NASA Image and Video Library
 
-Accepts user input for dynamic search
+Dynamic keyword search based on user input
+
+//IN PROGRESS
+  --> handle video data for display
+  --> resolve any remaining 'no show' scenarios
